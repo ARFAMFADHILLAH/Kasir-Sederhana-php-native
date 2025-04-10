@@ -36,3 +36,6 @@ MySQL – for storing data (products, sales, etc.).
 HTML/CSS – for the user interface.
 
 JavaScript – optional, for better interactivity (like updating cart without reloading the page).
+
+username : admin 
+password : kasir

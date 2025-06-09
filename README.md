@@ -1,41 +1,82 @@
-💡 What is a Simple Cashier System in Native PHP?
-A simple cashier system is a small web application designed to handle basic sales transactions. When it's built using native PHP, it means the system is made using plain PHP code without any frameworks like Laravel or CodeIgniter.
+# 💰 Simple Cashier System (Native PHP)
 
-🔧 Key Features of a Simple Cashier System
-Product Management
+A **Simple Cashier System** is a lightweight web application built with **native PHP** (no frameworks) to manage basic sales transactions for small businesses, kiosks, or personal use. It's fast, easy to use, and runs on any server that supports PHP & MySQL.
 
-Add, edit, and delete products.
+---
 
-Each product usually has a name, price, and stock.
+## 💡 What Is It?
 
-Cart System
+This is a **cashier or POS (Point of Sale)** system that helps you manage:
 
-Select products and add them to the cart.
+- ✅ Products
+- 🛒 Cart
+- 💸 Sales transactions
+- 📊 Sales history
 
-Update quantity or remove items from the cart.
+All built using **pure PHP + MySQL** without any framework like Laravel or CodeIgniter.
 
-Transaction Processing
+---
 
-Calculate total amount.
+## 🔧 Features
 
-Input amount paid by the customer.
+### 📦 Product Management
+- ➕ Add products
+- ✏️ Edit product details
+- ❌ Delete products
+- ✅ Track stock, name, and price per item
 
-Display change (if any).
+### 🛒 Cart System
+- 🔍 Browse available products
+- ➕ Add to cart
+- 🔄 Update quantity
+- ❌ Remove from cart
 
-Sales Records
+### 💸 Transaction Processing
+- 🧮 Auto-calculate total
+- 💵 Input cash paid
+- 🔁 Calculate change
+- ✅ Complete the sale
 
-Save the transaction history.
+### 📈 Sales Records
+- 📂 Store transaction history
+- 🗓️ View by day or specific range
+- 🔍 Track what was sold and when
 
-View daily or past transactions.
+---
 
-🛠️ Technologies Used
-PHP (native) – for server-side logic.
+## 🛠️ Technologies Used
 
-MySQL – for storing data (products, sales, etc.).
+| Tech       | Description                         |
+|------------|-------------------------------------|
+| 🐘 PHP     | Native PHP (no frameworks)          |
+| 🐬 MySQL   | Data storage (products, sales)      |
+| 🖥️ HTML/CSS| Frontend interface                  |
+| ⚙️ JavaScript (optional) | Enhance UX (e.g. cart updates without reload) |
 
-HTML/CSS – for the user interface.
+---
 
-JavaScript – optional, for better interactivity (like updating cart without reloading the page).
+## 🔐 Default Login
 
-username : admin 
-password : kasir
+| Username | Password |
+|----------|----------|
+| `admin`  | `kasir`  |
+
+> ⚠️ Tip: You can change the default login in the database (`users` table).
+
+---
+## ✨ Future Improvements
+
+- 🧾 Receipt printing (PDF or thermal)
+- 📱 Mobile responsiveness
+- 📊 Sales analytics dashboard
+- 🧑‍🤝‍🧑 Multi-user access level (admin vs cashier)
+
+---
+
+## 🙌 Credits
+
+This project is created to demonstrate a simple POS system using native PHP for learning and development purposes.
+
+---
+
+📫 Have suggestions or feedback? Feel free to fork the project or reach out!
